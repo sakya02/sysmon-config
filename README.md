@@ -1,6 +1,5 @@
-My personal fork of [Swift on Security's config](https://github.com/SwiftOnSecurity/sysmon-config) with additions from [@ion-storm's work](https://github.com/ion-storm/sysmon-config).
+My personal fork of [Swift on Security's config](https://github.com/SwiftOnSecurity/sysmon-config) with additions from [@olafhartong](https://github.com/olafhartong/sysmon-modular).
 
-Unfortunately the ion-storm config has not been updated in 2 years, my goal is to pick up where they left off with my own customizations on how I like to see the alerts in my SIEM. The focus is on detecting TTPs from MIRE where possible rather than specific attacks with the exception of relatively recent hacks such as Sunburst which I will include. 
 
 Original description from Swift on Security's repo:
 
