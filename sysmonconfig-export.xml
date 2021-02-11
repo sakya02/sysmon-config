@@ -992,13 +992,15 @@
 			<TargetFilename condition="end with">.hta</TargetFilename> <!--Scripting-->
 			<TargetFilename condition="end with">.lnk</TargetFilename> <!--Shortcut file | Credit @ion-storm -->
 			<TargetFilename condition="end with">.ppt</TargetFilename> <!--Office doc potentially with macros-->
-			<TargetFilename condition="end with">.ps1</TargetFilename> <!--PowerShell-->
-			<TargetFilename condition="end with">.ps2</TargetFilename> <!--PowerShell-->
+			<TargetFilename name="technique_id=T1059.001,technique_name=PowerShell" condition="end with">.ps1</TargetFilename> <!--Powershell-->
+			<TargetFilename name="technique_id=T1059.001,technique_name=PowerShell" condition="end with">.ps2</TargetFilename> <!--Powershell-->
 			<TargetFilename condition="end with">.reg</TargetFilename> <!--Registry File-->
 			<TargetFilename condition="end with">.jse</TargetFilename> <!--Registry File-->
 			<TargetFilename condition="end with">.vb</TargetFilename> <!--VisualBasicScripting files-->
 			<TargetFilename condition="end with">.vbe</TargetFilename> <!--VisualBasicScripting files-->
 			<TargetFilename condition="end with">.vbs</TargetFilename> <!--VisualBasicScripting files-->
+			<TargetFilename condition="end with">Temp\debug.bin</TargetFilename> <!--Bin files https://github.com/GhostPack/SafetyKatz creates debug.bin in a temp folder-->
+			<TargetFilename condition="end with">.exe</TargetFilename>
 		</FileCreateStreamHash>
 
 	<RuleGroup name="" groupRelation="or">
